@@ -1,0 +1,13 @@
+/*
+#0f0f0f
+#232D3F
+#005B41
+#008170
+*/
+
+.app {
+    height: 100vh;
+    width: 100vw;
+    background-color: #0f0f0f;
+    color: aliceblue;
+}
