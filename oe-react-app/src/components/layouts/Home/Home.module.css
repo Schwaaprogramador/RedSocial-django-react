@@ -1,0 +1,16 @@
+/*
+#0F0F0F-oscuro
+#232D3F
+#00ffb7
+#008170-claro
+*/
+
+.container {
+    background-color: #0F0F0F;
+    height: 100vh;
+    width: 100vw;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

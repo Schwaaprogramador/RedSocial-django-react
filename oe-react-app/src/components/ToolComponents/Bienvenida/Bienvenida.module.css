@@ -1,14 +1,15 @@
 /*
-#0f0f0f-oscuro
+#0F0F0F-oscuro
 #232D3F
-#005B41
+#00ffb7
 #008170-claro
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Strait&display=swap');
 
 .pantalla {
-
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.059);   
     height: 100vh;
     width: 100vw;    
     display: flex;
@@ -18,7 +19,7 @@
 
 .container {
 
-    background-color: #005B41;      
+    background-color: #232D3F   ;      
     height: 20vh;
     width: 20vw;
     position: absolute;        
@@ -35,7 +36,7 @@
     font-family: 'Strait', sans-serif;
     margin: 0px;
     padding: 0px;
-    color: aliceblue;
+    color: #00ffb7;
 
 }
 
@@ -43,7 +44,7 @@
     font-family: 'Strait', sans-serif;
     margin: 0px;
     padding: 10px;
-    color: aliceblue;
+    color: #008170;
     align-items: center;
     text-align: center; /* propiedad para centrar el texto*/
 }
