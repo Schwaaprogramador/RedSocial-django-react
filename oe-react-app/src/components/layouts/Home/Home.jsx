@@ -1,19 +1,17 @@
 import React from 'react'
 import styled from './Home.module.css';
-import Bienvenida from '../../ToolComponents/Bienvenida/Bienvenida';
+//import Bienvenida from '../../ToolComponents/Bienvenida/Bienvenida';
 import Navbar from '../../ToolComponents/NavBar/Navbar';
+import { Outlet } from 'react-router-dom'
 
-
-const Home = () => {
+function Home() {
   return (
     <div className={styled.container}>
-      <div>
-        home
-      </div>
         <Navbar/>
-      <Bienvenida/>
+        <Outlet/>
     </div>
   )
 }
 
-export default Home
+export default Home;
+
