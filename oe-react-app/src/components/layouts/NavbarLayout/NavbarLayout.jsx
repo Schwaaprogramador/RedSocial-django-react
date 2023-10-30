@@ -1,17 +1,17 @@
 import React from 'react'
-import styled from './Home.module.css';
+
 //import Bienvenida from '../../ToolComponents/Bienvenida/Bienvenida';
 import Navbar from '../../ToolComponents/NavBar/Navbar';
 import { Outlet } from 'react-router-dom'
 
-function Home() {
+function NavbarLayout() {
   return (
-    <div className={styled.container}>
+    <div>
         <Navbar/>
         <Outlet/>
     </div>
   )
 }
 
-export default Home;
+export default NavbarLayout;
 

@@ -12,23 +12,27 @@ const Navbar = () => {
         <p>!OE!</p>
       </div>
 
+
+      <div>
+
+        <Link to="/inicio/register" className={styled.link}> Registrarse </Link>
+        <Link to="/inicio/login" className={styled.link}> Logeo  </Link>
+        <Link to="/inicio/profile" className={styled.link}> Perfil </Link>
+        <Link to="/" className={styled.link}> Inicio </Link>
+
+      </div>
+
       <div className={styled.searchContainer}>
         <input type='text' placeholder='Buscar'/>
         <button className={styled.searchButton}>
-          
+
           <SlMagnifier className={styled.searchIcon}/>
 
         </button>
       </div>
 
-      <div>
+      
 
-        <Link to="/register" className={styled.link}> Registrarse </Link>
-        <Link to="/login" className={styled.link}> Logeo  </Link>
-        <Link to="/profile" className={styled.link}> Perfil </Link>
-        <Link to="/" className={styled.link}> Inicio </Link>
-
-      </div>
     </div>
   )
 }
